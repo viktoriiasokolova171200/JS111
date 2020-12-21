@@ -1,0 +1,42 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #3cc776, #4ae9dc);
+    font-family: Arial, sans-serif;
+    color: #6535bd;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+  position: relative;
+}
+#myTable{
+    border: 1px solid #ffffff;
+    vertical-align: middle;
+    margin: 35px auto;
+}
+
+#myTable td{
+
+}
+
+.item{
+    background: #e036f0; 
+    color: #f5fff2;
+    border: 2px solid #342994;
+    font: 30px Arial, Verdana, sans-serif;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+td{
+    border: 1px solid transparent;
+}
+td.over {
+    border: 1px dashed #ccc;
+}
+
